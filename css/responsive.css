@@ -1,0 +1,52 @@
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:375px) {
+    .kontak h3{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    .hero-tagline h1 {
+       line-height: 52px;
+       font-size: 40px;
+    }
+    .img-hero {
+        width: 75%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .card-produk {
+        margin: 15px 0 15px 0;
+    }
+
+    .card-produk-testi {
+        line-height: 15px;
+    }
+
+    .card-produk-testi h3{
+        font-size: 15px;
+    }
+    .card-produk-testi p{
+        font-size: 12px;
+    }
+
+    .img-mitra {
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:350px) {
+    
+}
+

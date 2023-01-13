@@ -1,0 +1,323 @@
+:root {
+    --pr-color:#009432;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3fff4;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.navbar {
+    z-index: 3;
+}
+
+* {
+    z-index: 2;
+}
+
+.accsent-img {
+    z-index: 1;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.nav-color {
+    background-color: #009432;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out 0.3s;
+}
+
+#hero {
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+.hero-tagline p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.button-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+
+.button-lg-primary-produk {
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+
+.wa {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--pr-color);
+}
+
+#produk {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.card-produk {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color:var(--pr-color);
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+}
+
+.card-produk h3 {
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all 0.2s ease-in;
+}
+
+.card-produk p {
+    color: #000;
+    font-size: 14px;
+    transition: all 0.3s ease-in;
+}
+
+/* hover */
+
+.card-produk:hover {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+}
+
+.circle-icon:hover {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.card-produk:hover h3 {
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.2s ease-in;
+}
+
+.card-produk:hover p {
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.2s ease-in;
+}
+
+#testimoni {
+    padding: 100px 0;
+    background: var(--pr-color);
+}
+
+#testimoni h2 {
+    color: #fff;
+}
+#testimoni h3 {
+    color: var(--pr-color);
+}
+
+
+.card-produk-testi {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in;
+}
+
+#cabang {
+    padding: 100px 0;
+    background:linear-gradient(160deg, var(--pr-color), #000);
+    color: #fff;
+}
+
+#cabang h2 {
+    color: #fff;
+}
+
+#mitra {
+    padding: 100px 0;
+}
+
+
+#kontak {
+    background-image: url(../Assets/kontak-2.jpg);
+    margin-top: 158px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kontak .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#kontak .container {
+    padding: 148px 0 148px 0;
+}
+
+#kontak h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+    width: 441px;
+}
+
+.kontak h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 52px 48px ;
+}
+.card-contact h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #009432;
+    text-align: center;
+    margin-bottom: 21px;
+
+}
+
+.form-control {
+    background: #c4c4c4;
+    height: 75px !important;
+}
+
+.form-floating label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-kontak {
+    width: 100%;
+    height: 75px;
+    background: #009432;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    background: #222f3e ;
+}
+
+footer a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright {
+    bottom: 10%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #000;;
+}
